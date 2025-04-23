@@ -1,6 +1,6 @@
 <script setup lang="ts">
   // const parent = "localhost"
-  const parent = "https://stream.boik.app"
+  const parent = "stream.boik.app"
   const chat = `https://www.twitch.tv/embed/hatfilms/chat?parent=${parent}&darkpopout`;
 </script>
 
