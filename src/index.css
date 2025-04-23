@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: stretch;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+}
+
+#root {
+  display: grid;
+}
+
+.app {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  grid-template-columns: 7fr 3fr;
+}
+
+.vid {
+  background: rgb(0, 0, 97);
+
+  iframe {
+    aspect-ratio: 16/9;
+  }
+  
+}
+
+.chat {
+  background: rgb(94, 0, 0);
+}
+
+@media (prefers-reduced-motion) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+  }
+}
