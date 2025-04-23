@@ -8,24 +8,21 @@
 
 body {
   margin: 0;
-  display: grid;
-  place-items: stretch;
-  min-width: 320px;
-  min-height: 100vh;
   height: 100vh;
   position: relative;
 }
 
-#root {
-  display: grid;
-}
-
-.app {
+#app {
   display: grid;
   margin: 0;
   padding: 0;
   position: relative;
   grid-template-columns: 7fr 3fr;
+  height: 100%;
+}
+
+iframe {
+  border: none;
 }
 
 .vid {
@@ -34,7 +31,7 @@ body {
   iframe {
     aspect-ratio: 16/9;
   }
-  
+
 }
 
 .chat {
@@ -42,6 +39,7 @@ body {
 }
 
 @media (prefers-reduced-motion) {
+
   *,
   ::before,
   ::after {
