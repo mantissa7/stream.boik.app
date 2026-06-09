@@ -1,48 +1,47 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
 }
 
 body {
-  margin: 0;
-  height: 100vh;
-  position: relative;
+	margin: 0;
+	height: 100vh;
+	position: relative;
 }
 
 #app {
-  display: grid;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  grid-template-columns: 7fr 3fr;
-  height: 100%;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	grid-template-columns: 7fr 3fr;
+	height: 100%;
 }
 
 iframe {
-  border: none;
+	border: none;
 }
 
 .vid {
-  background: rgb(0, 0, 97);
+	background: rgb(0, 0, 97);
 
-  iframe {
-    aspect-ratio: 16/9;
-  }
-
+	iframe {
+		aspect-ratio: 16 / 9;
+	}
 }
 
 .chat {
-  background: rgb(94, 0, 0);
+	background: rgb(94, 0, 0);
 }
 
 @media (prefers-reduced-motion) {
-
-  *,
-  ::before,
-  ::after {
-    animation: none !important;
-  }
+	*,
+	::before,
+	::after {
+		/* biome-ignore lint/complexity/noImportantStyles: intentional — force-disable animations for prefers-reduced-motion */
+		animation: none !important;
+	}
 }

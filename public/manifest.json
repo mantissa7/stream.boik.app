@@ -1,9 +1,9 @@
 {
-    "name": "Boik Stream",
-    "theme_color": "#000000",
-    "background_color": "#000000",
-    "short_name": "HF Live",
-    "description": "Watch Hat Films Live, with youtube stream and Twitch chat!",
+	"name": "Boik Stream",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"short_name": "HF Live",
+	"description": "Watch Hat Films Live, with youtube stream and Twitch chat!",
 	"icons": [
 		[
 			{
